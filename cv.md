@@ -50,3 +50,5 @@ I don't have practical experience that comes with commercial work. Despite this,
 1. BNTU (thermal power engineer)
 2. Retraining in BSUIR (software engineer)
 ---
+## English
+Pre Intermediate
