@@ -20,3 +20,25 @@ Overall, my unwavering commitment to learning and improving myself, combined wit
 * SQL
 * C
 ---
+## Code exmaple
+
+Function `GetTMaxFromClimateId` retrieves temperature from `climate` that is stored in given `heatsource`.  
+
+```C#
+
+public static int GetTMaxFromClimateId(Heatsource heatsource) 
+{ 
+    int tMax;
+    int climateId = 0;
+    using (EntityContext db = new EntityContext())
+    {
+        var calcHeatsources = db.Heatsources.Where(h => h.HeatsourceName == heatsource.HeatsourceName);
+        foreach (Heatsource h in calcHeatsources) 
+         climateId = h.ClimateId;
+        var climate = GetClimatesById(climateId);
+        tMax = climate.TWinter;
+    }
+    return tMax;
+}
+```
+---
