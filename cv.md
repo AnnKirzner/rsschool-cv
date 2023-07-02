@@ -42,3 +42,7 @@ public static int GetTMaxFromClimateId(Heatsource heatsource)
 }
 ```
 ---
+## Working experience
+I don't have practical experience that comes with commercial work. Despite this, I am committed to investing time and effort into learning and developing my programming skills through personal projects, online courses, and other resources available to me.
+
+---
