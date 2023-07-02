@@ -14,3 +14,9 @@ In terms of work experience, I currently work in the development of thermal-mech
 Overall, my unwavering commitment to learning and improving myself, combined with my strong work ethic and valuable skills, make me a well-rounded and capable individual in both my professional and personal life.
 
 ---
+## Skills and Proficiency
+* C# (WPF)
+* HTML
+* SQL
+* C
+---
