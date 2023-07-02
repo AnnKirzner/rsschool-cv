@@ -46,3 +46,7 @@ public static int GetTMaxFromClimateId(Heatsource heatsource)
 I don't have practical experience that comes with commercial work. Despite this, I am committed to investing time and effort into learning and developing my programming skills through personal projects, online courses, and other resources available to me.
 
 ---
+## Education
+1. BNTU (thermal power engineer)
+2. Retraining in BSUIR (software engineer)
+---
