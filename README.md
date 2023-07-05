@@ -1,2 +1,2 @@
-# rsschool-cv
-## https://annkirzner.github.io/rsschool-cv/cv
+ https://annkirzner.github.io/rsschool-cv/
+
