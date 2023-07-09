@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Regular.ttf");
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    background-color:#F5FFFA;
+    margin: 0px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .header {
+    height: auto;
+    top: 0;
+    background-color:#C0C0C0;
+  }
+
+  .main {
+    margin: 0;
+  }
+
+  .footer {
+    background-color:#C0C0C0;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    width: 50%;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    line-height: 30px;
+    list-style: none;
+  }
+
+  .footer-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    line-height: 30px;
+    list-style: none;
+  }
+
+  .nav-item {
+    padding: 0 30px;
+  }
+
+  .footer-item {
+    padding: 0 60px;
+    font-size: 18px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    transition: .3s;
+  }
+
+  .rs-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    transition: .3s;
+  }
+
+  .rs-link:hover {
+    color: #8A2BE2;
+  }
+
+  .nav-link:hover {
+    color: #8A2BE2;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    background-color: #20B2AA;
+  }
+
+  .p-summery {
+    text-indent: 20px;
+    font-size: 18px;
+  }
+  .icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .icon-footer {
+    width: 32px;
+    height: 32px;
+  }
+
+  .icon-rs {
+    width: 30%;
+    height: 30%;
+  }
+ 
+  .contacts-item {
+    font-size: 18px;
+  }
+
+  .skills-item {
+    font-size: 18px;
+  }
+
+  .education-item {
+    font-size: 18px;
+  }
+
+  .english {
+    font-size: 18px;
+  }
+  .p-code {
+    font-size: 18px;
+  }
+
+  .project-item {
+    font-size: 18px;
+  }
+
+  pre {
+    border: 2px solid #000000;
+    border-radius: 20%;
+    background-color: #B0E0E6;
+  }
+  li {
+    line-height: 1.8;
+  }
+
+
+
+
+  

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section-profile" id="profile">
+                <h1 class="section-title">Anna Kirzner</h1>
+                <img src="assets/img/avatar.png" alt="my avatar">
+            </section>
+         
+            <section class="section-summary" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p class="p-summery">
+                    I am a driven individual with a passion for learning and expanding my knowledge base.
+                    My primary goal is to acquire new information and insights in various fields, 
+                    making me a curious and inquisitive individual.
+                </p>
+                <p class="p-summery">
+                    In terms of work experience, I currently work in the development of thermal-mechanical
+                    components for boiler design. My experience in this field has allowed me to gain valuable
+                    insights into the world of engineering and design.
+                </p>
+                <p class="p-summery">
+                    Overall, my unwavering commitment to learning and improving myself, combined with my strong
+                    work ethic and valuable skills, make me a well-rounded and capable individual in both my 
+                    professional and personal life.
+                </p>
+              
+            </section>
+            <section class="section-contacts" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="contacts-list">
+                    <li class="contacts-item"><img class="icon" src="assets/img/icon-geolocalization.png" alt="geolocation">  Minsk, Belarus</li>
+                    <li class="contacts-item"><img class="icon" src="assets/img/icon-email.png" alt="email">  anna.kirzner@gmail.com</li>
+                    <li class="contacts-item"><img class="icon" src="assets/img/icon-telegram.png" alt="telegram">  @hannakap</li>
+                    <li class="contacts-item"><img class="icon" src="assets/img/icon-github.png" alt="githab">  AnnKirzner</li>
+                </ul>
+            </section>
+            <section class="section-skills" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">wpf (c#)</li>
+                    <li class="skills-item">HTML (beginner)</li>
+                    <li class="skills-item">CSS (beginner)</li>
+                    <li class="skills-item">Git, Githab (beginner)</li>
+                    <li class="skills-item">C</li>
+                    <li class="skills-item">SQL</li>
+                </ul>
+            </section>
+            <section class="section-code" id="code">
+                <h2 class="section-title">Code</h2>
+                <p class="p-code">
+                    Function GetTMaxFromClimateId retrieves temperature from climate that is stored in given heatsource.
+                </p>
+                    <pre>
+                        <code class="code">
+                        public static int GetTMaxFromClimateId(Heatsource heatsource) 
+                        { 
+                            int tMax;
+                            int climateId = 0;
+                            using (EntityContext db = new EntityContext())
+                            {
+                                var calcHeatsources = db.Heatsources.Where(h => h.HeatsourceName =
+                                = heatsource.HeatsourceName);
+                                foreach (Heatsource h in calcHeatsources) 
+                                 climateId = h.ClimateId;
+                                var climate = GetClimatesById(climateId);
+                                tMax = climate.TWinter;
+                            }
+                            return tMax;
+                        }
+                        </code>
+                    </pre>
+                
+            </section>
+            <section class="section-projects" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="project-list">
+                    <li class="project-item">ProjectTM (graduation project)</li>
+                    <li class="project-item">HeatSopply (course project)</li>
+                </ul>
+            </section>
+            <section class="section-education" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="education-list">
+                    <li class="education-item">BNTU (thermal power engineer)</li>
+                    <li class="education-item">Retraining in BSUIR (software engineer)</li>
+                </ul>
+            </section>
+            <section class="section-english" id="english">
+                <h2 class="section-title">English</h2>
+                <p class="english">Pre Intermediate</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-list">
+                <li class="footer-item"><a href="https://github.com/AnnKirzner"><img class="icon-footer" src="assets/img/icon-github.png" alt="git"></a></li>
+                <li class="footer-item">Anna Kirzner &#169;2023</li>
+                <li class="footer-item"><img class="icon-rs" src="assets/img/logo-rs.png" alt="RS school"></li>
+                <li class="footer-item"><a href="https://rs.school/js/" class="rs-link">RS School</a></li>
+            </ul> 
+
+        </div>
+    </footer>
+</body>
+</html>
